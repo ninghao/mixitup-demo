@@ -18,8 +18,15 @@
     <div class="ui basic buttons sort">
       <div class="ui button" data-sort="default">默认</div>
       <div class="ui button" data-sort="random">随机</div>
-      <div class="ui button" data-sort="">升序</div>
-      <div class="ui button" data-sort="">降序</div>
+      <div class="ui button" data-sort="value:asc">升序</div>
+      <div class="ui button" data-sort="value:desc">降序</div>
+    </div>
+
+    <div class="ui basic right floated buttons filter">
+      <div class="ui button" data-filter="all">所有</div>
+      <div class="ui button" data-filter=".color-red">红</div>
+      <div class="ui button" data-filter=".color-yellow">黄</div>
+      <div class="ui button" data-filter=".color-blue">蓝</div>
     </div>
   </div>
 
@@ -27,28 +34,28 @@
 
   <div class="ui container">
     <div class="ui four column grid">
-      <div class="column">
+      <div class="column color-red" data-value="1">
         <div class="ui inverted red segment"> 1 </div>
       </div>
-      <div class="column">
+      <div class="column color-yellow" data-value="2">
         <div class="ui inverted yellow segment"> 2 </div>
       </div>
-      <div class="column">
+      <div class="column color-blue" data-value="3">
         <div class="ui inverted blue segment"> 3 </div>
       </div>
-      <div class="column">
+      <div class="column color-red" data-value="4">
         <div class="ui inverted red segment"> 4 </div>
       </div>
-      <div class="column">
+      <div class="column color-yellow" data-value="5">
         <div class="ui inverted yellow segment"> 5 </div>
       </div>
-      <div class="column">
+      <div class="column color-blue" data-value="6">
         <div class="ui inverted blue segment"> 6 </div>
       </div>
-      <div class="column">
+      <div class="column color-red" data-value="7">
         <div class="ui inverted red segment"> 7 </div>
       </div>
-      <div class="column">
+      <div class="column color-yellow" data-value="8">
         <div class="ui inverted yellow segment"> 8 </div>
       </div>
     </div>
