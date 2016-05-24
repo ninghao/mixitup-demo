@@ -1,12 +1,12 @@
-这是[宁皓网](http://ninghao.net)介绍 web 相关技术用的小项目，里面有些基本的资源，目的是准备必要而且最简单的工具，立即可以去方便的学习。
+这是[宁皓网](http://ninghao.net)介绍 MixItUp 的课程里用的演示代码。
 
 1 → 克隆仓库到本地
 ```
-git clone https://github.com/ninghao/ninghao-web.git
+git clone https://github.com/ninghao/mixitup-demo.git
 ```
 2 → 安装项目需要的东西
 ```
-cd ninghao-web
+cd mixitup-demo
 npm install
 ```
 3 → 运行开发服务器
