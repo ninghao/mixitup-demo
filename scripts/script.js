@@ -3,7 +3,8 @@
 
   $('.grid').mixItUp({
     selectors: {
-      target: '.column'
+      target: '.column',
+      sort: '.sort .button'
     },
     layout: {
       display: 'inline-block'
